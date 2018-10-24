@@ -11,3 +11,4 @@
 11. wsk action update helloGo --web true -i
 12. wsk action get helloGo --url -i
 13. curl --insecure  https://172.24.6.51/api/v1/web/guest/default/helloGo.json\?name\=GoWb
+14. please reference doc https://www.ibm.com/blogs/bluemix/2018/01/running-existing-app-ibm-cloud-functions/
