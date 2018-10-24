@@ -1,0 +1,7 @@
+Sharing Agenda:
+1. What is serverless
+2. What is OpenWhisk?
+3. OpenWhisk’s Event-Driven Programming Model
+4. Apache OpenWhisk Project Overview and Architecture
+5. Golang serverless function live demo
+6. Q&A.

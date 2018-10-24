@@ -1,0 +1,13 @@
+1. Clone https://github.com/apache/incubator-openwhisk-devtools.
+2. Cd docker-compose
+3. make quick-start
+4. Now all the environment should be ready.
+5. We could download and install the catalog packages by make download-catalog, make init-catalog
+6. Now we go through some golang live demo.
+7. GOOS=linux GOARCH=amd64 go build -o exec
+8. zip exec.zip exec
+9. wsk action create helloGo --native exec.zip -i
+10. wsk action invoke helloGo -r -p name Gopher -i
+11. wsk action update helloGo --web true -i
+12. wsk action get helloGo --url -i
+13. curl --insecure  https://172.24.6.51/api/v1/web/guest/default/helloGo.json\?name\=GoWb
